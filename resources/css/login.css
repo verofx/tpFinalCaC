@@ -1,0 +1,27 @@
+body {
+    min-height: 100vh;
+}
+
+main {
+    min-height: 90vh;
+}
+
+.login-container {
+    width: 30vw;
+    min-width: 350px;
+    height: 85vh;    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.header-div{
+    background-color: violet;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+}

@@ -1,0 +1,77 @@
+body{
+    background-color: aqua;
+
+}
+
+header{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+
+}
+
+.card-character-home {
+    background-color: #ffffff50;
+    backdrop-filter: blur(3px);
+}
+
+.card-character-home button {
+    background-color: whitesmoke;
+}
+
+.header-div{
+    background-color: violet;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+}
+
+.nav-bar{   
+    background-color: blue;
+    margin-right: 5%;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+    gap: 40px;
+}
+
+.botton-nav{
+    background-color: green;
+}
+
+.botton-div{
+    text-decoration: none;
+}
+
+#login-a{
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+main{
+    border-color: chocolate;
+    background-image: url('wallpaper.jpg'); 
+    background-size: contain; 
+    background-repeat: repeat; 
+}
+
+.tituloYparrafo{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+}
+
+.tituloDemon{
+    background-color: burlywood;
+    height: 50px;
+}
+
+.p-top-main{
+    background-color: coral;
+    height: 50px;
+}

@@ -3,18 +3,23 @@ body {
 }
 
 main {
-    min-height: 90vh;
-    border-color: chocolate;
-    background-image: url('../img/login.jpg'); 
+    min-height: 100vh;
+    background-color: blueviolet;
+    background-image: url('../img/register.jpeg'); 
     background-size: contain; 
     background-repeat: repeat; 
 }
 
-.form {
+.login-container {
+    width: 60vw;
+    min-width: 350px;
+    height: 85vh;    
+}
+
+#register-form{
     background-color: #ffffff50;
     backdrop-filter: blur(3px);
 }
-
 
 header{
     display: flex;
@@ -28,4 +33,12 @@ header{
     display: flex;
     justify-content: center; /* Centra horizontalmente */
     align-items: center;
+}
+
+#error-message{
+    color: red;
+}
+
+.error{
+    color: red;
 }

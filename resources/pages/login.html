@@ -15,14 +15,17 @@
         </div>   
     </header>
 
-    <main class="d-flex justify-content-center align-items-center">
+    <main id="login-container" class="d-flex justify-content-center align-items-center">
 
-        <form class="d-flex flex-column justify-content-centerlogin-container gap-3 border rounded p-5 ">
+        <form class="form d-flex flex-column justify-content-centerlogin-container gap-3 border rounded p-5 ">
             <h1>Iniciar Sesion</h1>
+            <label for="email">Email</label>
             <input class="form-control" type="email" required>
+
+            <label for="password">Contraseña</label>
             <input class="form-control" type="password" required>
             <button type="submit" class="btn btn-primary">Ingresar</button>
-            <a href="">Registrarse</a>
+            <a href="../pages/register.html">Registrarse</a>
         </form>
 
     </main>

@@ -4,28 +4,44 @@ body {
 
 main {
     min-height: 90vh;
-    border-color: chocolate;
     background-image: url('../img/login.jpg'); 
     background-size: contain; 
     background-repeat: repeat; 
 }
 
-.form {
+.button-div{
+    text-decoration: none;
+    color: white;
+    background-color: #ffffff50;
+    backdrop-filter: blur(3px);
+    border-radius: 10%;
+    padding: 10px;
+}
+
+#link-register{
+    color: black;
+}
+
+#login-form {
     background-color: #ffffff50;
     backdrop-filter: blur(3px);
 }
 
 
 header{
+    background-color: black;
     display: flex;
     justify-content: space-between;
     height: 60px;
 }
 
 .header-div{
-    background-color: violet;
     margin-left: 5%;
     display: flex;
     justify-content: center; /* Centra horizontalmente */
     align-items: center;
+}
+
+.error{
+    color: red;
 }

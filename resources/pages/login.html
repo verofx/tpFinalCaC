@@ -11,24 +11,29 @@
 <body>
     <header>
         <div class="header-div">
-            <a class="botton-div" href="../../index.html">AnimeCaC</a> 
+            <a class="button-div" href="../../index.html">AnimeCaC</a> 
         </div>   
     </header>
 
     <main id="login-container" class="d-flex justify-content-center align-items-center">
 
-        <form class="form d-flex flex-column justify-content-centerlogin-container gap-3 border rounded p-5 ">
+        <form id="login-form" class="d-flex flex-column justify-content-centerlogin-container gap-3 border rounded p-5 ">
             <h1>Iniciar Sesion</h1>
             <label for="email">Email</label>
-            <input class="form-control" type="email" required>
+            <input class="form-control" type="email" id="email" name="email">
+            <span id="emailError" class="error"></span>
 
             <label for="password">Contraseña</label>
-            <input class="form-control" type="password" required>
-            <button type="submit" class="btn btn-primary">Ingresar</button>
-            <a href="../pages/register.html">Registrarse</a>
+            <input class="form-control" type="password" type="password" name="password">
+            <span id="passwordError" class="error"></span>
+
+            <div class="error" id="error-message"></div>
+
+            <button type="submit" id="button-submit" class="btn btn-primary">Ingresar</button>
+            <a id="link-register" href="../pages/register.html">Registrarse</a>
         </form>
 
     </main>
-
+    <script src="../js/login.js"></script>
 </body>
 </html>

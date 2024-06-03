@@ -1,10 +1,5 @@
-body{
-    background-color: aqua;
-
-}
-
 header{
-    background-color: red;
+    background-color: pink;
     display: flex;
     justify-content: space-between;
     height: 60px;
@@ -14,6 +9,7 @@ header{
 .card-character-home {
     background-color: #ffffff50;
     backdrop-filter: blur(3px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card-character-home button {
@@ -21,15 +17,22 @@ header{
 }
 
 .header-div{
-    background-color: violet;
     margin-left: 5%;
     display: flex;
     justify-content: center; /* Centra horizontalmente */
     align-items: center;
 }
 
+#text-main{
+    font-size: 30px;
+    font-family: cursive;
+    background-color: #ffffff50;
+    backdrop-filter: blur(3px);
+    border-radius: 10%;
+    margin-top: 20px;
+}
+
 .nav-bar{   
-    background-color: blue;
     margin-right: 5%;
     display: flex;
     justify-content: center; /* Centra horizontalmente */
@@ -38,28 +41,35 @@ header{
 }
 
 .botton-nav{
-    background-color: green;
+    color: black;
+    backdrop-filter: blur(3px);
+    border-radius: 10%
 }
 
-.botton-div{
+.button-div{
     text-decoration: none;
+    color: black;
+    background-color: #ffffff50;
+    backdrop-filter: blur(3px);
+    border-radius: 10%;
+    padding: 10px;
 }
 
 #login-a{
-    background-color: yellow;
+    background-color: black;
+    color: white;
     border-radius: 5px;
     padding: 6px;
+    
 }
 
 main{
-    border-color: chocolate;
     background-image: url('../img/nezuko.jpg'); 
     background-size: contain; 
     background-repeat: repeat; 
 }
 
 .tituloYparrafo{
-    background-color: blueviolet;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -68,8 +78,7 @@ main{
 }
 
 .tituloDemon{
-    background-color: burlywood;
-    height: 50px;
+    height: 100px;
 }
 
 .tituloIcon{
@@ -78,6 +87,10 @@ main{
 }
 
 .p-top-main{
-    background-color: coral;
     height: 50px;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Agranda la tarjeta un 5% */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Mejora la sombra para dar un efecto de elevación */
 }

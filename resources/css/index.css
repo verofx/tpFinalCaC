@@ -90,7 +90,13 @@ main{
     height: 50px;
 }
 
-.card:hover {
-    transform: scale(1.05); /* Agranda la tarjeta un 5% */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Mejora la sombra para dar un efecto de elevación */
+#p-footer{
+    background: #854d5c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
 }
